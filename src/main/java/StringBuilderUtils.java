@@ -21,4 +21,15 @@ public final class StringBuilderUtils
 			sb.replace( start, end, replace );
 		}
 	}
+
+	public static void replaceAll( final StringBuilder sb, final Map<String,String> m )
+	{
+		Validate.notNull( sb );
+		Validate.notNull( m );
+
+		for ( final Map.Entry<String,String> me : m.entrySet() )
+		{
+			replaceAll( sb, me.getKey(), me.getValue() );
+		}
+	}
 }
