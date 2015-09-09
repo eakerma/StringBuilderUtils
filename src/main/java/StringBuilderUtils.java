@@ -1,4 +1,4 @@
-package edu.uark.util;
+package edu.uark.util.stringbuilderutils;
 
 import java.util.*;
 import org.apache.commons.lang3.Validate;

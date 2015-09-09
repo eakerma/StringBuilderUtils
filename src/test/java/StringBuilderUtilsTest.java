@@ -1,4 +1,4 @@
-package edu.uark.util;
+package edu.uark.util.stringbuilderutils;
 
 import java.io.*;
 
